@@ -1,6 +1,6 @@
-﻿using Tyuiu.SafonovRV.Sprint3.Task1.V16.Lib;
+﻿using Tyuiu.SafonovRV.Sprint3.Task1.V20.Lib;
 
-namespace Tyuiu.SafonovRV.Sprint3.Task1.V16
+namespace Tyuiu.SafonovRV.Sprint3.Task1.V20
 {
     internal class Program
     {
