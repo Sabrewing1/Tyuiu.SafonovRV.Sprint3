@@ -7,12 +7,12 @@ namespace Tyuiu.SafonovRV.Sprint3.Task2.V18.Lib
         public double GetMultiplySeries(int value, int startValue, int stopValue)
         {
             double sumSeries = 0;
-            while (startValue <= stopValue)
+            do
             {
                 sumSeries = sumSeries + Math.Pow((1 / (Math.Sin(startValue))), 3);
                 startValue++;
-            }
-            return Math.Round(sumSeries, 3);
+            } while (startValue <= stopValue);
+                return Math.Round(sumSeries, 2);
         }
     }
 }
