@@ -15,7 +15,7 @@ namespace Tyuiu.SafonovRV.Sprint3.Task4.V20.Lib
                 }
                 else
                 {
-                    res = res * (x / (Math.Cos(x) + x) + 2.5);
+                    res = res * (x / (Math.Cos(x) - x) + 2.5);
                 }
             }
             return Math.Round(res, 3);
