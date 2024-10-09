@@ -17,7 +17,7 @@ namespace Tyuiu.SafonovRV.Sprint3.Task6.V29
             Console.WriteLine("* Тема: Обработка целочисленной информации                                *");
             Console.WriteLine("* Задание #6                                                              *");
             Console.WriteLine("* Вариант #29                                                             *");
-            Console.WriteLine("* Выполнила: Сафонов Руслан Васильевич | АСОиУб-24-1                      *");
+            Console.WriteLine("* Выполнил: Сафонов Руслан Васильевич | АСОиУб-24-1                       *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
             Console.WriteLine("* Напишите программу, которая ищет среди целых чисел,                     *");
