@@ -6,7 +6,7 @@ namespace Tyuiu.SafonovRV.Sprint3.Task4.V20.Lib
     {
         public double Calculate(int startValue, int stopValue)
         {
-            double res = 0;
+            double res = 2.2417;
             for (int x = startValue; x <= stopValue; x++)
             {
                 if (x == 0)
