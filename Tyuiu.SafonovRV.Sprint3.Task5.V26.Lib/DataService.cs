@@ -7,12 +7,12 @@ namespace Tyuiu.SafonovRV.Sprint3.Task5.V26.Lib
         public double GetSumSumSeries(int x, int startValue1, int startValue2, int stopValue1, int stopValue2)
         {
             double sumSeries = 0;
-            int i, j;
-            for (i = stopValue1; i <= stopValue1; i++)
+            int i, k;
+            for (i = startValue1; i <= stopValue1; k++)
             {
-                for (j = stopValue2; j <= stopValue2; j++)
+                for (k = startValue2; k <= stopValue2; k++)
                 {
-                    sumSeries = sumSeries + (Math.Pow(x, j) + Math.Sin(j));
+                    sumSeries += 1 / (Math.Sin(k) + x);
                 }
             }
             return Math.Round(sumSeries, 3);
@@ -21,5 +21,9 @@ namespace Tyuiu.SafonovRV.Sprint3.Task5.V26.Lib
 }
 
 
-    
+
+
+
+
+
 
